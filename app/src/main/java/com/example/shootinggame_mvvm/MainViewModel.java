@@ -24,4 +24,6 @@ public class MainViewModel extends ViewModel {
         stepInfoData.setValue(data);
     }
 
+
+
 }

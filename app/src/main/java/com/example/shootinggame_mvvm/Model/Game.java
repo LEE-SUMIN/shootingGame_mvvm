@@ -1,5 +1,6 @@
 package com.example.shootinggame_mvvm.Model;
 
+
 import java.util.HashMap;
 
 public class Game {
@@ -22,7 +23,7 @@ public class Game {
     // Instance variables.
     //
 
-    private com.example.shootinggame_mvp.Model.Cannon cannon;
+    private Cannon cannon;
     private HashMap<Integer, Bullet> bulletHashMap;
     private HashMap<Integer, Enemy> enemyHashMap;
     private StepInfo stepInfo;
